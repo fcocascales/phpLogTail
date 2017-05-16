@@ -1,0 +1,54 @@
+/* ext_log.css */
+
+#main {
+  position:absolute;
+  top:64px;
+  right:0.5em;
+  bottom:1em;
+  left:0.5em;
+}
+
+#result {
+  position:absolute !important;
+  top:32px;
+  right:4px;
+  bottom:4px;
+  left:4px;
+  background:rgba(255,255,255,0.4);
+  overflow:auto;
+  border:1px inset #999;
+  padding:4px;
+  /*white-space: pre-wrap; */
+  font:10pt monospace;
+}
+
+#result p {
+  margin:0;
+  padding:4px 0;
+}
+#result p:nth-child(even) {
+  background:rgba(255,255,255,0.8);
+}
+#result p:nth-child(even) {
+  background:rgba(192,192,192,0.8);
+}
+
+
+#result span { color:#696; }
+#result i {  color:#393; }
+#result var {  color:#399; }
+
+
+input[type=submit] {
+  font-weight:bold;
+  padding:0 2em;
+  margin:0 1em;
+}
+
+#size_container { float:right; }
+
+#cmd_view { font-weight:bold; }
+#cmd_download { margin-left:2em; }
+#cmd_empty { color:#c00; }
+
+/* */
